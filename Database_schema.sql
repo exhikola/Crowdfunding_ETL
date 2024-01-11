@@ -1,6 +1,3 @@
-
---Create contact table
-DROP TABLE contacts
 CREATE TABLE contacts (
     contact_id int   NOT NULL,
     first_name varchar(30)   NOT NULL,
@@ -10,8 +7,6 @@ CREATE TABLE contacts (
           
 );
 
---Create category table
-DROP TABLE category
 CREATE TABLE category (
     category_id varchar(10)   NOT NULL,
     category varchar(30)   NOT NULL,
@@ -19,16 +14,12 @@ CREATE TABLE category (
      
 );
 
---Create subcategory table
-DROP TABLE subcategory
 CREATE TABLE subcategory (
     subcategory_id varchar(10)   NOT NULL,
     subcategory varchar(30)   NOT NULL,
     PRIMARY KEY (subcategory_id)
 );
 
---Create campaign table
-DROP TABLE campaign
 CREATE TABLE campaign (
     cf_id int NOT NULL,
     contact_id int NOT NULL,
@@ -51,18 +42,9 @@ CREATE TABLE campaign (
      
 );
 
-
-
---view the table
 select * from contacts
-
---view the table
 select * from category
-
---view the table
 select * from subcategory
-
---view the table
 select * from campaign
 
 
