@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-# Crowdfunding_ETL Project Overview and Collaboration Note
+# Crowdfunding_ETL Project Overview
 ## Project Overview
 ### Background
 The Crowdfunding_ETL project focuses on building an ETL (Extract, Transform, Load) pipeline using Python, Pandas, and either Python dictionary methods or regular expressions. The primary data source is an Excel file (crowdfunding.xlsx), and the goal is to extract, clean, and structure the data for storage in a PostgreSQL database.
@@ -59,4 +59,3 @@ Create tables in the correct order based on the ERD.
 Verify table creation by running SELECT statements.
 Import CSV files into corresponding SQL tables.
 Verify data correctness using SELECT statements.
-Note: Make sure to document the entire process and upload relevant files to the GitHub repository.
